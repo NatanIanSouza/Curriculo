@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Natan - Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin: 30px 0 20px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin: 20px 0 10px;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 10px 0;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin: 30px 0;
+            padding: 0 20px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .edit_hover_class {
+            background-size: cover;
+            position: relative;
+            /* <---------------------*/
+        }
+        
+        .edit_hover_class img {
+            transition: filter 0.2s ease-in-out, transform 250ms;
+        }
+        
+        .edit_hover_class:hover a {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .edit_hover_class:hover img {
+            filter: blur(1.5px);
+            filter: brightness(90%);
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+
+<body style="background-color:#DDDDDD">
+    <h1>Natan Ian Masson de Souza</h1>
+
+    <div class="row place-content-center">
+        <div class="edit_hover_class">
+            <center><img src="eu.jpeg" class="shadow centro-perfil" style="width: 15rem; height: 15rem; border-radius: 100%; object-fit: cover; border: 4px solid #fff; cursor: pointer;">
+            </center>
+
+        </div>
+    </div> <br>
+
+    <div class="section">
+        <h2>Informações de contato</h2>
+        <ul>
+            <li>Email: iannatan4@gmail.com</li>
+            <li>Telefone: (14) 99655-3882</li>
+            <li>LinkedIn: <a href="www.linkedin.com/in/natan-ian-souza-ba83b3268">seulinkedin</a></li>
+            <li>GitHub: <a href="https://github.com/NatanIanSouza">NatanIanSouza</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Experiência profissional</h2>
+        <div class="section-title">AD Soluções em Tecnologia</div>
+        <p>Cargo: Desenvolvedor Web - Front-end</p>
+        <p>Período: 02/2022 - 09/2022</p>
+        <ul>
+            <li>Laço Closet</li>
+            <li>AD-Store</li>
+        </ul>
+        <div class="section-title">Usina Lins</div>
+        <p>Cargo: Jovem Agrícola</p>
+        <p>Período: 03/2020 - 12/2021</p>
+        <ul>
+            <li>Curso Jovem Agrícola - APAE</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Ensino Médio</h2>
+        <div class="section-title">Etec de Lins</div>
+        <p>Curso: Ensino Médio com Habilitação Técnica em Desenvolvimento de Sistemas</p>
+        <p>Período: 2020 - 2022</p>
+    </div>
+    <div class="section">
+        <h2>Graduação</h2>
+        <div class="section-title">Fatec de Lins</div>
+        <p>Curso: Sistemas para Internet</p>
+        <p>Período: 2023</p>
+    </div>
